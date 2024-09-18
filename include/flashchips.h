@@ -654,7 +654,8 @@
 #define SHARP_LHF00L04		0xCF	/* Same as LHF00L03/LHF00L05 */
 
 /* Spansion was previously a joint venture of AMD and Fujitsu. */
-#define SPANSION_ID		0x01	/* Spansion, same ID as AMD */
+// #define SPANSION_ID		0x01	/* Spansion, same ID as AMD */
+#define SPANSION_ID		0x68	/* Spansion, same ID as AMD */
 /* S25 chips are SPI. The first device ID byte is memory type and
  * the second device ID byte is memory capacity. */
 #define SPANSION_S25FL004A	0x0212
